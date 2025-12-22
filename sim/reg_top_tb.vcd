@@ -1,0 +1,118 @@
+$date
+	Mon Dec 15 18:34:54 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Reg_test $end
+$var wire 8 ! LED [7:0] $end
+$var reg 1 " A_B $end
+$var reg 5 # Addr [4:0] $end
+$var reg 1 $ Clk $end
+$var reg 2 % Opt [1:0] $end
+$var reg 1 & Reset $end
+$var reg 1 ' Write_Reg $end
+$scope module uut $end
+$var wire 1 " A_B $end
+$var wire 5 ( Addr [4:0] $end
+$var wire 1 $ Clk $end
+$var wire 2 ) Opt [1:0] $end
+$var wire 1 & Reset $end
+$var wire 1 ' Write_Reg $end
+$var wire 32 * R_Data_B [31:0] $end
+$var wire 32 + R_Data_A [31:0] $end
+$var reg 8 , LED [7:0] $end
+$var reg 5 - R_Addr_A [4:0] $end
+$var reg 5 . R_Addr_B [4:0] $end
+$var reg 32 / W_Data [31:0] $end
+$scope module Reg_one $end
+$var wire 1 0 Clk $end
+$var wire 5 1 R_Addr_A [4:0] $end
+$var wire 5 2 R_Addr_B [4:0] $end
+$var wire 32 3 R_Data_A [31:0] $end
+$var wire 32 4 R_Data_B [31:0] $end
+$var wire 1 5 Reset $end
+$var wire 5 6 W_Addr [4:0] $end
+$var wire 32 7 W_Data [31:0] $end
+$var wire 1 ' Write_Reg $end
+$var integer 32 8 i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100000 8
+b0 7
+b1 6
+15
+b0 4
+bx 3
+b1 2
+bx 1
+x0
+bx /
+b1 .
+bx -
+b0 ,
+bx +
+b0 *
+b0 )
+b1 (
+0'
+1&
+b0 %
+0$
+b1 #
+0"
+b0 !
+$end
+#20000
+b1 7
+1$
+#40000
+b0 7
+0$
+#50000
+b100000 8
+10
+b11110000000000001111 /
+1'
+b0 6
+0&
+#60000
+b1 7
+1$
+#80000
+b0 7
+0$
+#100000
+b1 7
+1$
+#120000
+b0 7
+0$
+#130000
+0'
+#140000
+b1 7
+1$
+#160000
+b0 7
+0$
+#180000
+b1 7
+1$
+#200000
+b0 7
+0$
+#220000
+b1 7
+1$
+#230000
