@@ -14,6 +14,9 @@ output [31:0] R_Data_A,R_Data_B;
 reg [31:0] REG_Files[0:31];
 integer i=0;
 
+initial
+        for(i=0;i<32;i=i+1) REG_Files[i]<=0;
+
 always @ (posedge Clk or posedge Reset)
 	begin
 		if(Reset)
